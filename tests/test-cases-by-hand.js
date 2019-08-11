@@ -314,7 +314,7 @@ var testCasesByHand = {
     return fn((a,b)=>a+b)([1,2]) === 3
   }],
   curry: [function(fn) {
-    return fn((a,b,c,d) => a+b+c+d)(1)(2,3)(4) === 6
+    return fn((a,b,c,d) => a+b+c+d)(1)(2,3)(4) === 10
   }],
   once: [function(fn) {
     var i = 0
